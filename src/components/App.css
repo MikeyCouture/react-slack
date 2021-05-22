@@ -23,6 +23,11 @@ body,
   z-index: 200;
 }
 
+/* SidePanel  */
+.menu {
+  padding-bottom: 2em;
+}
+
 /* Message.js */
 
 .message__self {
