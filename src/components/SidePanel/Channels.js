@@ -8,10 +8,13 @@ class Channels extends React.Component {
   state = {
     activeChannel: "",
     user: this.props.currentUser,
+    channel: null,
     channels: [],
     channelName: "",
     channelDetails: "",
     channelsRef: firebase.database().ref("channels"),
+    messageRef: firebase.database().ref("messages"),
+    notifications: [],
     modal: false,
     firstLoad: true
   };
