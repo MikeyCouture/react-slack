@@ -167,7 +167,7 @@ class Channels extends React.Component {
     let count = 0;
 
     this.state.notifications.forEach(notification => {
-      if (notification.id == channel.id) {
+      if (notification.id === channel.id) {
         count = notification.count;
       }
     });
